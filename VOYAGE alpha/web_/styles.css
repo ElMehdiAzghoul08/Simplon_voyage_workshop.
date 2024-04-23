@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg'); 
+    background-size: cover;
+    background-position:0%;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  
+  .container {
+    width: 600px;
+    padding: 20px;
+    background: #0006;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+  }
+  input::placeholder {
+    color: #dbdbdb; /* Change placeholder color to gray */
+  }
+  
+  button {
+    width: 20%;
+    padding: 6px;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: 0.6s ease-out;
+    outline: none;
+    color: rgb(8, 117, 117);
+
+  }
+  #btn{
+    text-align: right;
+   
+  }
+  
+  button:hover {
+    background-color: #dbf4fc;
+    color: rgb(19, 169, 215);
+  }
+  
+  #error {
+    color: red;
+  }
+  

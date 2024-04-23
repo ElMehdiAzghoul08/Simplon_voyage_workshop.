@@ -1,0 +1,12 @@
+[
+    {"name": "Mountain", "emoji": "🏞️"},
+    {"name": "Beach", "emoji": "🏝️"},
+    {"name": "Desert", "emoji": "🏜️"},
+    {"name": "Forest", "emoji": "🌳"},
+    {"name": "Cityscape", "emoji": "🌆"},
+    {"name": "Tundra", "emoji": "❄️"},
+    {"name": "Grassland", "emoji": "🌾"},
+    {"name": "Canyon", "emoji": "🏞️"},
+    {"name": "Island", "emoji": "🏝️"},
+    {"name": "Volcano", "emoji": "🌋"}
+]

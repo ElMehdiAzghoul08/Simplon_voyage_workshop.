@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/filters.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/png" href="image/Voyage_logo.png">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <title>Voyage</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo"></div>
+    <nav>
+      <ul>
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container_">
+    <section class="filters">
+      <div class="destination-title">
+        <h3>Destination</h3>
+      </div>
+      <div class="locations">
+        <button id="city-button" class="city-button">
+          <h3 class="h3-city">City...</h3>
+        </button>
+        <ul class="city-list" id="city-list"></ul>
+      </div>
+      <div class="landscapes">
+        <button id="landscapes-button" class="landscapes-button">
+          <h3 class="h3-landscapes">Landscapes...</h3>
+        </button>
+        <ul class="landscapes-list" id="landscapes-list"></ul>
+      </div>
+      <button class="search-button">Search</button>
+    </section>
+  </div>
+  <div class="container">
+    <div class="slider-wrapper">
+      <button id="prev-slide" class="slide-button material-symbols-rounded">
+        chevron_left
+      </button>
+      <ul class="image-list">
+        <img class="image-item" src="image/saidia.jpg" alt="img-1" />
+        <img class="image-item"
+          src="image/koutoubia-mosque-minaret-located-at-medina-quarter-of-marrakesh-morocco-balate-dorin.jpg"
+          alt="img-2" />
+        <img class="image-item" src="image/City-Jardin-Apartment-Martil-Exterior.jpeg" alt="img-3" />
+        <img class="image-item" src="image/istockphoto-544676786-612x612.jpg" alt="img-4" />
+        <img class="image-item" src="image/360_F_122030379_nMQOkXxvYBpG6QYUhASKFsBDkGWGwT7Z.jpg" alt="img-5" />
+        <img class="image-item" src="image/saouiiira.jpg" alt="img-6" />
+        <img class="image-item" src="image/chefchaouen.jpeg" alt="img-7">
+        <img class="image-item" src="image/rabat.jpg" alt="img-8">
+        <img class="image-item" src="image/meknes.jpg" alt="img-9">
+        <img class="image-item" src="image/ouarzazate.jpg" alt="img-10">
+      </ul>
+      <button id="next-slide" class="slide-button material-symbols-rounded">
+        chevron_right
+      </button>
+    </div>
+    <div class="slider-scrollbar">
+      <div class="scrollbar-track">
+        <div class="scrollbar-thumb"></div>
+      </div>
+    </div>
+    <section class="content-section">
+      <div class="container1">
+        <div class="image-container">
+          <img src="image/contactphoto.jpeg" alt="contact us">
+        </div>
+        <div class="text-container">
+          <p>Have questions or need assistance? Our dedicated team is here to help! Reach out to us anytime via email,
+            phone, or live chat. We're committed to providing personalized support to ensure your travel experience is
+            seamless and memorable. Contact us now and let us turn your travel dreams into reality!</p>
+          <p>Our support team is available 24/7 to assist you with any inquiries or concerns. Whether you're planning
+            your next adventure or need help with an existing booking, we're here to provide you with the guidance and
+            support you need. Don't hesitate to reach out - we're here to help!</p>
+        </div>
+      </div>
+      <div class="button-container">
+        <a href="contact.html" class="contact-button">Contact Us</a>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <p>© All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
